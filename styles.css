@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#circle {
+    border: 10px solid white;
+    border-radius: 50%;
+    width: 90vmin;
+    height: 90vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+#entry {
+    background-color: transparent;
+    color: white;
+    opacity: 1; 
+    border: none;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 11px;
+    width: 70vmin; 
+    height: 70vmin; 
+    outline: none;
+    resize: none; 
+    overflow: auto; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    box-sizing: border-box; 
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%; 
+    background-color: transparent;
+    border: none;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
