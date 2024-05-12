@@ -22,11 +22,13 @@ function formatString(str) {
 document.getElementById('entry').addEventListener('keydown', function(e) {
     if (e.key === 'ArrowDown') {
         e.preventDefault();
-        if (currentIndex !== previousLines.length - 1) {
-            previousLines = [];
-            currentIndex = -1;
+        if (currentIndex === previousLines.length - 1) {
+            fetchNewLine();
+        } else if (currentIndex < previousLines.length - 1) {
+            currentIndex++;
+            this.innerHTML = previousLines[currentIndex];
         }
-        fetchNewLine();
+        console.log(currentIndex); // Log currentIndex
     } else if (e.key === 'ArrowUp') {
         e.preventDefault();
         if (currentIndex > 0) {
@@ -34,6 +36,8 @@ document.getElementById('entry').addEventListener('keydown', function(e) {
             this.innerHTML = previousLines[currentIndex];
             isInputting = false;
         }
+        console.log(currentIndex); // Log currentIndex
+
     } else if (e.key === 'Enter') {
         e.preventDefault();
         if (justFetched) {
@@ -67,33 +71,20 @@ document.getElementById('entry').addEventListener('keydown', function(e) {
 });
 
 function fetchNewLine() {
-    fetch('/files.php')
+    fetch('getRandomLine.php')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-            return response.json();
+            return response.text();
         })
-        .then(files => {
-            const file = files[Math.floor(Math.random() * files.length)];
-            fetch(`readfile.php?file=${encodeURIComponent(file)}`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.text();
-                })
-                .then(line => {
-                    line = formatString(line);
-                    document.getElementById('entry').innerHTML = line;
-                    previousLines.push(line);
-                    currentIndex++;
-                    isInputting = false;
-                    justFetched = true;
-                })
-                .catch(e => {
-                    console.log('There was a problem with the fetch operation: ' + e.message);
-                });
+        .then(line => {
+            line = formatString(line);
+            document.getElementById('entry').innerHTML = line;
+            previousLines.push(line); // Add the new line at the end of previousLines
+            currentIndex++; // Increment currentIndex
+            isInputting = false;
+            justFetched = true;
         })
         .catch(e => {
             console.log('There was a problem with the fetch operation: ' + e.message);
