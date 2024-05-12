@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -7,25 +7,33 @@ body {
     justify-content: center;
     position: relative;
 }
+
 #circle {
-    border: 10px solid white;
+    border: 10px solid black;
     border-radius: 50%;
     width: 90vmin;
     height: 90vmin;
-    display: flex;
+    display:inline-block;   
     align-items: center;
     justify-content: center;
     position: absolute;
     z-index: 1;
+    box-sizing: border-box;
 }
+
 #entry {
+    width: 100%;
+    height: 100%;
+}
+
+div[contenteditable] {
     background-color: transparent;
-    color: white;
+    color: black;
     opacity: 1; 
     border: none;
     text-align: center;
     font-family: Consolas;
-    font-size: 1.3vw;
+    font-size: 1vw; /* Adjust as needed */
     width: 70vmin; 
     height: 70vmin; 
     outline: none;
@@ -38,10 +46,25 @@ body {
     z-index: 2;
     border-radius: 50%; 
     background-color: transparent;
-    border: none;
-    line-height: 1.2;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px; 
+}
+
+/* If the viewport width is 600px or less, decrease the font size and adjust the width and height */
+@media (max-width: 600px) {
+    div[contenteditable] {
+        font-size: 2.5vw; /* Adjust as needed */
+        width: 80vmin;
+        height: 80vmin;
+    }
+}
+
+/* If the viewport width is 400px or less, decrease the font size even more and adjust the width and height */
+@media (max-width: 400px) {
+    div[contenteditable] {
+        font-size: 2vw; /* Adjust as needed */
+        width: 90vmin;
+        height: 90vmin;
+    }
 }
