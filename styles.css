@@ -33,7 +33,7 @@ div[contenteditable] {
     border: none;
     text-align: center;
     font-family: Consolas;
-    font-size: 1vw; /* Adjust as needed */
+    font-size: calc(2px + 2vmin); /* Adjust as needed */
     width: 70vmin; 
     height: 70vmin; 
     outline: none;
