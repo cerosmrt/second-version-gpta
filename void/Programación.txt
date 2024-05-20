@@ -1,0 +1,278 @@
+﻿Fedora distro.
+
+
+The end user. 
+
+
+Comments to other developers or to make code inactive without deleting it. 
+
+
+Python
+Como un pulpo. Aplicable a machismos cosas. Ubuntu lo usa en muchas areas. 
+
+
+Kivy, de la v3.6 a la 3.9. 
+No siempre es compatible un software con cierta version. No siempre la ultima version es la mas recomendable. 
+
+
+Visual Code instead of sublime. 
+
+
+Select version of python you’ll want to use.
+
+
+El shield es donde vos lo ves. El archivo nuevo es donde escribo el script. 
+
+
+En python, cada vez que creo un archivo.
+Cada vez que ejecuto.
+
+
+Power virtual machine. 
+
+
+LA velocidad de la primera ejecucion es mas lenta que las siguientes si las siguientes no vienen con modificaciones. 
+
+
+Una variable es una alcancia. Hay que asignarle un valor. 
+
+
+Los dibujos para explicar representaciones. 
+
+
+Variables son
+Strings (“”)
+Booleanos
+Float
+Int
+
+
+Las variables tienen un nombre y un significado. 
+
+
+La informacion se encuentra en la variable en otros lenguajes. En Python la informacion se encuentra en el objeto. La variable apunta hacia el objeto. 
+
+
+a=3
+b=a
+a=4
+entonces
+b=3 (usa la primer a, la anterior, para determinar el valor).
+
+
+Python tiene objetos mutables y objetos inmutables. 
+Las listas, sets o diccionarios pueden cambiar y ser los mismos objetos. 
+Los que son inmutables, si cambian una parte cambian totalmente y son otro objeto. 
+
+
+Una colección de elementos dentro de corchetes, es una lista. 
+
+
+El uno es un inmutable porque es un entero. 
+
+
+Entrega intermedia unidad 4.
+Entrega final unidad 8. El resto de los resultados se comparte con los demas. 
+
+
+variable = input(“ingrese un numero)
+print(variable)
+
+
+print(type(variable))
+imprime el tipo de objeto que es. Int, float, str, bool.
+
+
+Copiar y pegar puede traer problemas de formato. 
+
+
+Widgets. Defino una nery. 
+
+
+Cuáles son los IDLs más utilizados por Python. 
+No es obligación subir nada al foro. 
+Podés compartir el ejercicio. Si lo resolvi distinto lo comparto para que se vea que puede hacerse de otra forma. 
+
+
+La indentación es espacios. 
+
+
+TKinter y Random estan instaladas en la distribucion. 
+
+
+Nos van a pedir subir los archivos de python. No TXT, python. 
+Archivo.py
+BBC v
+
+
+string(“alfanuméricos”)
+
+
+#one line comment
+
+
+“””
+Two line 
+comment
+“””
+
+
+Una variable contiene un objeto.
+
+
+Objeto
+Tipo de
+Es llamado
+
+
+Una variable hace referencia a un determinado objeto en un determinado espacio\tiempo.
+
+
+Fisicamente, el objeto es un espacio en la memoria (el espacio que el tipo de objeto ocupa).
+
+
+Una variable puede hacer alusion al valor de otra variable. \
+a = 3
+b = a
+Entonces
+b = 3
+
+
+Inmutable
+Numeros
+Strings
+Tuplas
+
+
+No inmutable
+Listas
+Diccionarios
+Sets
+
+
+Las librerias utilizan objetos propios: widgets.
+Para agregar botones, cajas, inputs de texto.
+
+
+El script finaliza con 
+mainloop()
+Mainloop, entonces, da inicio a los procesos de ejecucion. 
+
+
+Concatenar es unir cadenas.
+“Un string” + “otro string”.
+
+
+Paragraphs. Two. Hold one. Search another. See if you could match two. 
+Random paragraphs with keyboard. Roll. Keep one. Roll the other. Compile. Like two dj decks.
+Compile text as if you were mixing a song. 
+You rotate a deck, random paragraphs concerning the chosen keywords appear. 
+
+
+Choose keywords. Roll all. Hold one. Roll 3. Compile. Hold one (same or other). Roll 3. Compile. Es tan simple como barajar cartas y mezclarlas. 
+Pero las cartas son párrafos. 
+
+
+Software que cuando vos escribís un párrafo nuevo, te sugiere cuatro otros que tienen las mismas palabras. Podes hacer suffle de las otras tres cuantas veces quieras. 
+
+
+El software se llama La Piedra Filosofal. Compiler multi rotative deck.
+
+
+The librarian se puede llamar otro software.
+
+
+Un software para resumir. Agarrar párrafos duplicados y suprimirlos. Agarrar las oraciones que contengan ciertas palabras claves y suprimirlas, extraerlas. Lo que sea.
+
+
+Atributo “text” del widget “label”
+Label(text=’Hola’).pack()
+
+
+You identify things on lists. on python. 
+
+
+Navegas entre archivos. 
+
+
+myList = [“banana”, “cherry, “apple”]
+print(mylist)
+#
+item = mylist[0]
+print(item)
+#
+banana
+
+
+for in loops
+
+
+Every attribute is a new variable. Every modification converts the element in a newer, more specific, element. 
+
+
+Variables as how values are represented. 
+Values as how variables are meant. 
+
+
+Sistema como conjunto ordenado y funcional. 
+Operativo porque opera. Realiza operaciones. 
+
+
+Los modulos se importan. 
+import sys, os
+
+
+len (de lenght) = cuantos componentes.
+
+
+return para sacar algo de un bucle (o una funcion).
+
+
+Anidamiento. Cosas adentro de otras cosas. 
+
+
+El for x in es para cualquier elemento que conforme al valor. Elemento uno puede ser el elemento de la lista, o una letra de un valor de una variable. 
+
+
+En binario todo se define por su negativa. Si la x es de tipo lista, se llama a si mismo. Si no, print x.
+
+
+Variables locales. 
+Variables no locales. 
+Variables globales.
+
+
+Tanto listas como funciones pueden anidarse. 
+
+
+Generalmente no hay mas de un par de anidamientos. 
+
+
+Una variable global esta fuera de todo bucle. 
+
+
+Expresar conceptos en líneas de código es la labor del programador. 
+
+
+Estructuras de datos. 
+
+
+Las listas pueden concatenarse. 
+
+
+List1 [0, 1, 2, 3, 4, 5]
+Puedo saber el tamanho de una lista. 
+len(list)
+print(4 in List1)
+
+
+Tuple entre paréntesis.
+Lista entre corchetes. 
+
+
+String representa texto.
+Un caracter es letra numero o simbolo. Unidad de palabra o texto. Cadena de caracteres. String es una estructura de datos secuencial. 
+frase = (“esto es un string”)
+
+
+Module Request to interact with websites.

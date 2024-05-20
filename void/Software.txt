@@ -1,0 +1,550 @@
+﻿* When click Run, automatically create and open the new text where the other txts are. It would make me able to preview the new text document first and then decide if I want to save and name it or cancel it by closing the text document without saving. 
+* Use specific keywords, so when I write, for example “war”, words like “warming” do not come out compiled. Maybe it could suggest related terms to add? A button to scan and get related terms to the ones already added, to include related keywords.
+* I’d like the compiled text to show paragraphs with just one blank space in between each paragraph. The output is showing me two blank spaces instead. 
+* Omit duplicated paragraphs in the compiled text. If it’s a duplicate, do not add. 
+
+
+El software genera una oportunidad para saber que piensa uno mismo, encontrar contradicciones logicas y resolverlas. Por el amor por la sabiduria unicamente. La curiosidad,. que no es otra cosa que ganas de conocer la verdad. 
+
+
+-----------------------------------------------------------------------------------
+
+
+Tool for nonlinear writers and nonlinear learners. Research, studying, journaling, self discovery.
+
+
+The program works with .txt files inside a folder. Each .txt contains paragraphs separated from each other by one blank space.
+
+
+Paragraphs can contain definitions, quotes or questions.
+
+
+The software will compile in a new .txt the paragraphs extracted from the source .txts.
+
+
+You'd search a keyword (or combination of keywords) and see the paragraphs that contain them, compiled in a new file (all the paragraphs separated with blank space).
+
+
+Paragraphs can contain links.
+
+
+There are paragraphs consisting of various lines. If there's no blank space between them, it should be taken as a unit.
+
+
+Simple text no format. No images. Plain text. Formatting of the compiled file could be done in another instance with third party software.
+
+
+Add hashtags to add keyword that is not contained in the text. Hashtags should be taken into account when extracting paragraphs. Hashtag lines should be ignored in the compiled file (they shouldn't be printed). They go right at the end of a paragraph.
+#likethisone; #key; #example.
+
+
+Formato del texto fuente
+Párrafo siempre en el medio.
+
+
+Cada imagen está adjunta al párrafo siguiente, del que no se separa con unas línea en blanco. Las imágenes sin texto no se muestran. Tienen que tener un pie de foto. Una descripción o narración que acompañe.
+
+
+Algunos párrafos contienen links. Se citan contenidos. Los links como las imágenes se adjuntan al párrafo al que estén pegados. Sí se admiten links sin texto.
+
+
+Un paper es un nuevo documento donde se compilan párrafos de la fuente, de acuerdo a una o más palabras claves (keywords).
+
+
+Podés agregar un hashtag cuando querés agregar keywords a ciertos párrafos. El hashtag no se ve en el paper. Tiene que estar justo después del cuerpo de texto.
+#ejemplodehashtag
+
+
+Cada bloque es un párrafo, cada cuerpo de texto es un párrafo.
+La unidad del programa es el párrafo.
+
+
+Cuando subís el texto pones algunas de las palabras clave como etiquetas. Vos descargá y listo. 
+
+
+¿Una página web?
+
+
+Un lugar donde vamos escribiendo todo lo que nos va interesando acerca de las cosas que vamos viendo o venimos pensando. 
+
+
+Lo que esta arriba de la linea sin espacio es o una imagen o un titulo. A la imagen deberia desplegarla y al titulo omitirlo. 
+
+
+Texto fuente
+El texto fuente pueden ser parrafos con definiciones, citas, o quizás solo preguntas. 
+
+
+Propósitos
+El saber universal en manos de todo el mundo. 
+
+
+Lo que cargues en esa carpeta va a ser todo el conocimiento que has adquirido a lo largo de tu vida, y después podés dejarlo en mano de las generaciones futuras. 
+
+
+Que es y para que sirve
+
+
+Un comparador para encontrar párrafos duplicados o similares. 
+
+
+El tipo de fuentes pueden hacer de el
+
+
+Una herramienta de estudio. De investigacion. De autodescubrimiento. 
+
+
+Herramienta para provocar la individuación;  encontrar la individualidad. Para desarrollar la propia filosofía de vida (sistema de creencias propio basado en la experiencia). 
+
+
+Es un juego. Lleno de preguntas que motivan tu curiosidad (y despiertan entonces la creatividad). Podés ver lo que otros han escrito acerca de los mismos temas. Algunas preguntas básicas de la filosofía, otras para ir agregando con el tiempo. Todas las preguntas acerca de los misterios de la existencia para despertar tu curiosidad. 
+
+
+Do your research, write it down. 
+
+
+Organizador de párrafos. 
+
+
+Bibliomancia.
+
+
+Generador de citas.
+
+
+Generador de ideas.
+
+
+El software se puede usar como diario personal, herramienta de investigación, juegos de texto rpg, un generador de citas aleatorias. Es para mantenerte curioso e inspirado cuando no sabes qué pensar. 
+Podés tenés en tu propia fuente personal las frases que más te gustan, o escribir tus cosas propias. Hacer papers temáticos y reintroducirlos en una nueva fuente. Podés tener muchas fuentes, y todas creadas o modificadas a voluntad. Escritas, descargadas, copiadas y pegadas de otra página.
+
+
+Organic movement of thought, written and shown back to you. 
+
+
+Es un diccionario dentro del mismo autor. Se pueden poner todas las obras de un autor en un mismo lugar y analizarlo. 
+
+
+Podemos usar el software para comparar twitts de otras personas. Que siempre hablan de las mismas cosas y se la pasan contradiciéndose.
+
+
+Escribir las frases de una misma persona en distintos momentos sobre los mismos términos.
+
+
+Posibles funciones
+
+
+Scrollear de distintas formas. Distintos widgets, distintos formatos, temas, diseños y funciones. Distintas versiones para distintos usos. La idea se adapta al usuario.
+
+
+Varias fuentes para descargar disponibles online.
+
+
+The software could analyse what keywords that you’ve input have been put together ofter enough to recommend a compilation for you, for when you do not know what to compile next. 
+
+
+Caracteristicas del instalador
+
+
+Una versión liviana que pueda enviarse por mail. Y versiones de diseñador. Que lo personalicen y lo vendan como suyo. Las versiones open source son nuestras. Quien quiera lucrar que lo haga. Les robamos las ideas nuevas y si nos juntan las implementamos nosotros.
+
+
+Ommit everything that is underlined. 
+
+
+Softwares complementarios
+Un software para elegir el formato final del paper, si queremos hacerlo estandarizado y rápido. Fuente, tamaño, interlineado, margen. Click en "Compilar".
+
+
+Software generador de "formato fuente" desde artículos en internet o ebooks.
+
+
+Una página web. Vos podés elegir descargar fuentes, las clasificamos en con imágenes y/o links y sin imágenes y/o links. Es una fuente de información no normada, que no puede ser regulada. Entonces el traspaso de las fuentes se hace desde la confianza. De que no contenga virus o contenido delicado. Los usuarios hacen reviews de distintas fuentes en base a la "confianza". Lo único que hay que hacer para votar confianza y agregar fuentes es hacer una cuenta. Las fuentes no tienen por qué ser personales. Deben contener metadatos con las algunas palabras claves que incluyen. Para descargar fuentes no necesitas cuentas. Podemos considerar publicitar cosas de nuestra misma red en esas páginas. Un podcast o algún otro proyecto. Engancharlo. Dos cosas que aparentemente no tienen relación. 
+
+
+Forma de lograrlo (organizacion de difusion)
+
+
+Buscamos diseñadores y les contamos del proyecto como si no formaramos parte. De alguna forma indirecta. O promocionamos distintas versiones desde un podcast.
+
+
+Instrucciones
+
+
+En las instrucciones aconsejamos recibir fuentes de personas de confianza y enviarlas a personas de confianza. Que lo que tiene intención de publicarse son los papers. 
+
+
+Compilacion
+
+
+El compilado crea un nuevo formato sin espacios. Elegir el orden en que el paper despliega los párrafos correspondientes a las palabras claves.
+Logos-realidad-experiencia-iluminación
+Realidad-experiencia-iluminación-Logos
+Experiencia-iluminación-Logos-realidad
+Realidad-iluminación-Logos-experiencia
+Etc.
+
+
+With the duplicates, just say (x2)#
+
+
+Add option of opening one random quote containing that specific term. 
+
+
+
+
+Patchera
+La primera palabra es el núcleo. El absoluto. Los otros párrafos son relativos. Se podrían pensar distintas formas de desplegar los párrafos y elegir un orden en un software intermedio. Entre el buscador de párrafos y el compilado, un organizador de parrafos. Puede desplegarse en bloques (párrafo espacio) individualmente, con posibilidades de moverte a distintas, siguientes consecuencias lógicas. Lo vas mapeando. Elegís el orden a medida que lo comparas con varios otros a la vez.
+
+
+  
+
+Ejemplo de mapeo. Podés compilar varias distintas versiones en distintos o en un mismo archivo. Cómo si fuera un sintetizador modular. Para comparar o entremezclar los temas. Después te sale el paper. Donde haces el texto final.
+
+
+Zoom in y out en la patchera. Núcleos, estructuras y salidas. La forma más eficiente de hacer varias pruebas a la vez. 
+
+
+1. seleccionás el núcleo (primer párrafo que contiene la palabra clave central), después el siguiente tema, después el siguiente tema. 
+2. reorganizas los bloques en la "patchera" y compilas en uno o varios papers, 
+3 editas el paper en el procesador de texto y exportas. Si querés exportar varios papers a la vez con el mismo formato e interlineado, software. 
+#unmillóndesoftwares
+El paso 2 se puede omitir en las primeras versiones. 
+
+
+Bypass ciertos párrafos para que no aparezcan en el compilado.
+
+
+Referencias extras
+Similar a Scrivener.
+
+
+Papers
+Entre los papers podemos hacer tipo wikipedia con links de un texto a otro texto.
+Con cada texto un solo tema. Definiciones precisas.
+
+
+Codigo en palabras
+Usar python, docx y pygame.
+
+
+https://youtu.be/MRuq3SRXses
+Cómo organizar archivos y carpetas.
+
+
+import os 
+import shuttil
+
+
+If .txt sort chronologically. 
+If paragraph in .text sort by input ('keyword').
+
+
+F = file 
+
+
+Aviso lo que voy a hacer. Voy a anotar las variables cuando se me ocurran.
+
+
+Mapa en texto de lo que debe escribirse en el código:
+Importar docx, OS, shuttil y no se que otro paquete.
+Open (.txt , 'r')
+Find (keyword)
+Sort paragraph by keyword.
+
+
+/p = paragraph
+Paragraph = 1 
+Not paragraph = 0
+
+
+If contained between spaces = paragraph.
+
+
+/p:
+Blank line
+.jpg
+'string'
+#comment
+
+
+If no .jpg print (string).
+If no #comment print (string)
+
+
+P = string
+
+
+Compile = sort (paragraphs)
+
+
+Compile in new document.
+Fix grammar with dial, one by one.
+
+
+La primera versión solo va a compilar.
+Open (all files)
+Input (keywords)
+Sort (paragraphs With keywords). 
+
+
+Write (new file containing paragraphs containing keywords)
+Print sorted paragraphs in new text file.
+
+
+Recordatorio: las fuentes no definen los términos sino sus usos.
+
+
+Ways to sort.
+
+
+If lo que esta arriba del parrafo no tiene espacio, puede tratarse de una imagen o un texto. If el texto está subrayado, omitir en el compilador. If imagen,permitirte verla en un apartado y decidir si incluirla.
+
+
+Add compiled text to non source txts directory.
+
+
+https://discord.com/invite/python
+Server de discord con enseñantes de python.
+
+
+Añadir función exceptuar (keywords).
+
+
+Llamar "Hidden gems" a las random quotes. Bibliomancia.
+
+
+Random = hidden gems. Una función para moverse aleatoriamente dentro del texto. De párrafo a párrafo.
+
+
+La gente se pasaria papers sobre distintos temas para aprender. O las mismas fuentes cuando buscan combinarlos con otras cosas. 
+
+
+Comparar frases escritas en distintos tiempos. 
+
+
+----------------------------------------------------------------------------------------------
+Un botón para excluir ciertos párrafos en el preview.
+
+
+Uno software producer (txt).
+Editor (fix and add paragraphs).
+Compiler (create papers).
+Stylizer (export). 
+Saver (saves).
+
+
+Cada uno persigue sus propios intereses y por tanto tiene debajo a quien se le antoje. Cada uno encarga la tarea a otro. No es una empresa vendiendo a un individuo una idea, sino un individuo a otro individuo. 
+
+
+Blockchain.
+1. Source. 
+2. Unlock KWords
+3. Filter (add, remove)
+4. Paper editor.
+5. Export and share. 
+
+
+“Add and remove paragraphs based on…”
+
+
+Duplicate deleter (deletes manually or all single duplicates, the ones that are single)
+
+
+From the editor I save every change made. 
+
+
+Message in a bottle. 
+
+
+Don’t erase duplicates in papers. 
+
+
+Papers can be converted back to source. 
+
+
+Agregar opciones pre paper. Despues de la preview. Que te deje sacar los que no queres con un clic. y reordenarlos antes de verlos en el txt. Como bloques. 
+
+
+Automatizar funciones de procesadores de texto.
+
+
+The source is just containing finished thoughts, as long as it has an ending (dot). Unfinished thoughts, complete or delete. 
+
+
+You create your own functions. 
+
+
+Armar proyectos solo en docs. Crear un procesador de texto online especifico para esta modalidad online. 
+
+
+Trabajable desde varios lugares. Solo hay formato parrafo. Un enter te saltea un espacio. 
+
+
+Para hacer brainstorming, un solo archivo. Los softwares estan enumerados por copias? Cada copia lleva el nombre de su version. 
+
+
+Make python log you into a temporary email and send whatever text you made always to the same different pages.
+
+
+The software is the ultimate text editor. You can go from random quote to random quote editing and re editing your own writings. 
+
+
+El projecto que vendo es un editor de texto. La etapa de escritura se realiza en free flow, flow state. La de edición requiere concentración, lectura. Pero hay cosas que refrasear, hay cosas que borrar. Nothing is set in stone. Al final múltiples versiones del libro estarán disponibles, y su evolución. 
+
+
+Imaginate un mundo donde cada persona sea escritora. Donde cada persona lleve consigo un mismo libro de por vida. Donde puedas estrechar más y más cada vez todas las cosas que alguna vez escribiste. Borrar las que no te parecen necesarias volver a leer y reescribir las que valen la pena. Al fin de tu vida vas a poder leerte o darle a otros que lean de tu vida. Tus conocimientos. Tu filosofía. Tu arte. Tu forma de procesar los males. Tu forma de disfrtutar los bienes. Lanzar al mercado la mejor forma de vivir la vida y dejar al mundo decidir quién tiene la mejor de las formas. 
+
+
+You go random quote to random quote in search for words that interest you. You then select the word. You keep going, random quotes. You then select another word that you want to relate that first one to. Then, you compile the related words. 
+
+
+Las random quotes son para entonces poder mandarlas a distintos capítulos. 
+
+
+Crear automáticamente capítulos con las palabras clave. Pero yo decido, una a una. Otra casilla para escribir cosas a la fuente, en el archivo de texto que yo quiera. Puedo 
+
+
+No tengo que sentirme mal por las cosas que borre porque van a estar en cualquier back up. Cada versión tiene su fecha. Puedo o no borrarlas, siendo que la última solo es la que me importa. A ver que tan lejos puedo llegar antes de morir. A ver que tanto puedo entender (o creer entender) a mi persona, a mi ser y al mundo que me rodea. A ver que tanto puede el mundo resistirse a una gran transformación, donde seamos todos libres de consciencia. 
+
+
+Un bloque donde se revisan citas, se reescriben (editan) y se envían a capítulos. Un banco donde podes ir agregando ciertas palabras. 
+
+
+Aceptar, editar, eliminar (todo lo convertido a blank space se envía manualmente). 
+
+
+Next. Next. Edit *changes “Logso” to “Logos”. Click (right click) in the word Logos; send to; child folder named Logos. If it matches, clipboard will paste it at the end. Chapters, then, are edited manually, seeing the big picture. You can take two or three different chapters and mix them together, but that is the word processor’s job. 
+
+
+You do not need to take it so fast. 
+
+
+You do not need to be so stressed about writing down your ideas. Frenetically doesn’t mean right. 
+
+
+En el compiler, elegir como ordenar los parrafos con algunos shortcuts. Everything you can think of, you can map it. 
+
+
+HTML offline browsing. 
+
+
+No se enseña diciendo las reglas, sino describiendo las posibilidades. 
+
+
+Comprar pendrives, llenarlos con los textos, tirarlos a la calle, repartirlos en las casas de conocidos. Llenar el mundo con tus capitulos. Inversion: pendrives. 
+
+
+HTML browsing software for reading like wikipedia, inside a pendrive. 
+Who wouldn’t want a free pendrive full of information? 
+
+
+Classifying quotes would be a block 2 (of the same editing software). 
+
+
+My only contribution will be the software and its functions. 
+
+
+Los nombres de los capitulos ya seran una guia. 
+
+
+Massive clipboard. 
+
+
+Los títulos de cada capítulo son guías vagas. No todos los párrafos tienen que ver con eso. 
+
+
+El software es para jugar con el lenguaje. You can change it all, bit by bit. 
+
+
+El mejor procesador de textos.
+You can open multiple tabs. You can fix one tab, roll the other one, associated with it. In sequential, non sequential order. 
+
+
+You can decide the paths and roots where every chapter is. One offline, one online. One yours, one others. 
+
+
+Podria programar dibujos NFT. 
+Geometria sagrada.
+
+
+Una app que sea networking de músicos. Uno sube un track. 
+
+
+You can route the paragraphs and send them back to the void.
+
+
+We can send encrypted offline web pages. 
+
+
+Book crossing. Leave a random book somewhere.
+
+
+Un libro open source que pueda seguir editandose por siempre para conocer la verdad desde el punto de vista de todos los seres humanos que quieran participar. Podes arrancar por la version que quieras. La de quien quieras. Originales (NTF) of fanmade. 
+
+
+NTF puede ser el libro como quedo cuando se murio el autor. Podria hacerse libros virtuales que tengan algo particular de diseño. Que no sean un texto nada mas. Aportarle mística virtual al ntf.
+
+
+Que el libro tenga forma de página web. Offline. Tipo wiki. Donde cliqueas y te sale la dentro del mismo libro. 
+Un libro que se lee como si fuera wikipedia.
+
+
+Libros de este tipo wiki que son NTF.
+
+
+Es un rabbit hole. Podes organizarlo como quieras. Vos te vas por las ramas que vos quieras.
+
+
+Books that are NFTs. People themselves define its value in the stock market. NFTs are the future. 
+
+
+Make old books much more fun to read digitally.
+
+
+El librero es un librero digital. NTFs libraries. Old and new books, translated. 
+
+
+Ask: where is this paragraph located?
+
+
+Software to add and select multiple paths and send same archive to multiple paths at the time. 
+
+
+Con el software vos podes por ejemplo incluir en la fuente un cuento, y que con el pasar de los vayas spliteando. Podes mandar partecitas al void, parrafos, al resto borrarlo. Highlight and send to the void. Send multiple copies. Alert if duplicates. 
+
+
+Extracting from google docs, an offline txt file containing the paragraphs containing the searched keywords.
+
+
+Print ( paragraph 1+paragraph 2)
+
+
+Think about logic.
+Individuals are their own.
+
+
+In [squared box] 
+Print('Write')
+The button gives you a command
+In grey with autocomplete
+
+
+For a string in between " " 
+Include all lines to code
+
+
+Keywords and key numbers
+
+
+Click and move to the next thing.
+
+
+Click generate to combine into one bigger file
+
+
+Modules sum.
+You can write code like this
+
+
+Modular coding
