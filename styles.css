@@ -24,6 +24,11 @@ body {
 #entry {
     width: 100%;
     height: 100%;
+    /* text-align: center; */
+    /* writing-mode: horizontal-tb; Add this line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div[contenteditable] {
@@ -49,6 +54,7 @@ div[contenteditable] {
     display: flex;
     align-items: center;
     justify-content: center;
+    writing-mode: horizontal-tb; /* Add this line */
 }
 
 /* If the viewport width is 600px or less, decrease the font size and adjust the width and height */
@@ -67,4 +73,17 @@ div[contenteditable] {
         width: 90vmin;
         height: 90vmin;
     }
+}
+
+.blinking-cursor {
+    width: 2px;
+    height: 1em;
+    background-color: black;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
